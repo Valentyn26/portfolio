@@ -683,10 +683,6 @@ body {
 }
 
 @media (max-width: 768px) {
-    .header {
-        height: 100vh;
-    }
-
     .monitor {
         display: none;
     }
@@ -706,8 +702,9 @@ body {
     }
 
     .wrapper {
+        height: 100vh;
         padding: 0px;
-        height: calc(100% - 172px);
+        height: 100%;
         position: relative;
         z-index: 1;
     }
@@ -723,6 +720,10 @@ body {
 
     .main {
         padding-bottom: 0px;
+    }
+
+    .circle-to-top {
+        bottom: 40px;
     }
 
     /* ========================= */
