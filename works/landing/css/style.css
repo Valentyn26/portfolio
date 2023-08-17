@@ -113,26 +113,6 @@ body {
     gap: 9px;
 }
 
-.date__item {
-    color: rgba(255, 255, 255, 0.44);
-    font-size: 1.285rem;
-    line-height: 1.388;
-    font-weight: 700;
-    letter-spacing: 0.064em;
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-}
-
-.date__item:hover {
-    color: #FFF;
-    font-size: 2.571rem;
-    font-weight: 700;
-    line-height: 1.361;
-    letter-spacing: 0.064em;
-    position: relative;
-    top: 5px;
-}
-
 /* ========================================================== */
 
 .presentation {
