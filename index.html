@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Портфоліо html-верстальщика. Тут можна подивитися на верстку адаптивних та кросбраузерних сайтів.">
+        content="Портфоліо front-end розробника. Тут можна подивитися на React додатки та верстку адаптивних та кросбраузерних сайтів.">
     <meta name="keywords"
-        content="html верстка, верстка, верстка сайтів, адаптивна верстка, кросбраузерна верстка, приклади верстки сайтів">
+        content="react додатки, html верстка, верстка, верстка сайтів, адаптивна верстка, кросбраузерна верстка, приклади верстки сайтів">
     <meta name="robots" content="none">
     <meta name="Author" content="Жеревчук Валентин">
     <title>Портфоліо HTML-верстальщика Жеревчука Валентина</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -31,16 +31,24 @@
             </div>
         </div>
     </div>
-    <div class="monitor">
+    <!-- <div class="monitor">
         <div class="monitor__cover-block">
             <div class="monitor__border-block"></div>
         </div>
         <div class="monitor__bottom-block"></div>
         <div class="monitor__footing"></div>
         <div class="monitor__plate"></div>
-    </div>
+    </div> -->
     <div class="hiding-block">
         <div class="wrapper">
+            <div class="monitor">
+                <div class="monitor__cover-block">
+                    <div class="monitor__border-block"></div>
+                </div>
+                <!-- <div class="monitor__bottom-block"></div>
+                <div class="monitor__footing"></div>
+                <div class="monitor__plate"></div> -->
+            </div>
             <header class="header">
                 <div class="header__container">
                     <section class="header__text-block">
@@ -109,8 +117,38 @@
                 </div>
                 <section class="main__projects projects">
                     <div class="projects__container">
-                        <h2 class="projects__title">Мої проєкти</h2>
+                        <h2 class="projects__title">Мої тренувальні проєкти</h2>
                         <div class="projects__items">
+                            <article class="projects__item item-projects">
+                                <button type="button" class="item-projects__button button-item" data-collapse>
+                                    <div class="button-item__info">
+                                        <h3 class="button-item__title">Інформація про сайт</h3>
+                                        <div class="button-item__arrow"></div>
+                                    </div>
+                                </button>
+                                <div class="item-projects__wrapper">
+                                    <div class="collapse">
+                                        <div class="collapse__body">
+                                            <div class="collapse__title">Магазин екопродуктів</div>
+                                            <button type="button" class="collapse__button">
+                                                <a href="works/eco-shop/">Відкрити сайт</a>
+                                            </button>
+                                            <div class="collapse__block-text">
+                                                <div class="collapse__text">React додаток</div>
+                                                <div class="collapse__text">Використовувались: React, MobX, Node.js,
+                                                    HTML5, CSS3, JavaScript
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-projects__image">
+                                    <picture>
+                                        <source srcset="img/works/EcoShop.webp">
+                                        <img src="img/works/EcoShop.png" alt="Картинка сайту">
+                                    </picture>
+                                </div>
+                            </article>
                             <article class="projects__item item-projects">
                                 <button type="button" class="item-projects__button button-item" data-collapse>
                                     <div class="button-item__info">
