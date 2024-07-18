@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/eco-shop/static/css/main.463852de.css",
+    "main.js": "/eco-shop/static/js/main.86d520a7.js",
+    "index.html": "/eco-shop/index.html",
+    "main.463852de.css.map": "/eco-shop/static/css/main.463852de.css.map",
+    "main.86d520a7.js.map": "/eco-shop/static/js/main.86d520a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.463852de.css",
+    "static/js/main.86d520a7.js"
+  ]
+}

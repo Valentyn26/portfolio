@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Портфоліо html-верстальщика. Тут можна подивитися на верстку адаптивних та кросбраузерних сайтів.">
+    <meta name="keywords"
+        content="html верстка, верстка, верстка сайтів, адаптивна верстка, кросбраузерна верстка, приклади верстки сайтів">
+    <meta name="robots" content="none">
+    <meta name="Author" content="Жеревчук Валентин">
+    <title>Портфоліо HTML-верстальщика Жеревчука Валентина</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="monitor__buttons-mobile">
+        <div class="monitor__scroll-buttons">
+            <button type="button" class="monitor__button" data-goto=".skills__body"><span>Вміння</span></button>
+            <button type="button" class="monitor__button" data-goto=".projects"><span>Проєкти</span></button>
+        </div>
+        <div class="monitor__language-box">
+            <button type="button" class="monitor__button monitor__language-button" data-collapse>
+                <span>УКР</span>
+            </button>
+            <div class="collapse">
+                <div class="collapse__body">
+                    <a href="en.html" class="collapse__language">EN</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="monitor">
+        <div class="monitor__cover-block">
+            <div class="monitor__border-block"></div>
+        </div>
+        <div class="monitor__bottom-block"></div>
+        <div class="monitor__footing"></div>
+        <div class="monitor__plate"></div>
+    </div>
+    <div class="hiding-block">
+        <div class="wrapper">
+            <header class="header">
+                <div class="header__container">
+                    <section class="header__text-block">
+                        <div class="header__name">Жеревчук Валентин</div>
+                        <h1 class="header__occupation">Front-end розробник</h1>
+                    </section>
+                </div>
+            </header>
+            <main class="main">
+                <div class="main__skills skills">
+                    <div class="skills__container">
+                        <div class="skills__body">
+                            <section class="skills__circle">
+                                <h2 class="skills__title">Вміння</h2>
+                                <ul class="skills__list">
+                                    <li class="skills__item">бібліотека React;</li>
+                                    <li class="skills__item">стейт-менеджери MobX і Redux;</li>
+                                    <li class="skills__item">мова програмування JavaScript;</li>
+                                    <li class="skills__item">мова розмітки HTML5;</li>
+                                    <li class="skills__item">каскадні таблиці стилів CSS3;</li>
+                                    <li class="skills__item">препроцессор SASS;</li>
+                                    <li class="skills__item">система керування версіями Git & GitHub;</li>
+                                    <li class="skills__item">таск-менеджер Gulp;</li>
+                                    <!-- <li class="skills__item">верстка адаптивних та кросбраузерних сайтів, які
+                                        якісно відображаються на будь-якому пристрої та у будь-якому браузері;</li> -->
+                                </ul>
+                            </section>
+                            <div class="skills__icon skills__icon-html">
+                                <picture>
+                                    <source srcset="img/bg-icons/HTML5.webp" media="(min-width:1024px)">
+                                    <img src="img/bg-icons/HTML5.png" alt="">
+                                </picture>
+                            </div>
+                            <div class="skills__icon skills__icon-css">
+                                <picture>
+                                    <source srcset="img/bg-icons/CSS3_logo.webp" media="(min-width:1024px)">
+                                    <img src="img/bg-icons/CSS3_logo.png" alt="">
+                                </picture>
+                            </div>
+                            <div class="skills__icon skills__icon-js">
+                                <picture>
+                                    <source srcset="img/bg-icons/JS.webp" media="(min-width:1024px)">
+                                    <img src="img/bg-icons/JS.png" alt="">
+                                </picture>
+                            </div>
+                            <div class="skills__icon skills__icon-sass">
+                                <picture>
+                                    <source srcset="img/bg-icons/Sass.webp" media="(min-width:1024px)">
+                                    <img src="img/bg-icons/Sass.png" alt="">
+                                </picture>
+                            </div>
+                            <div class="skills__icon skills__icon-gulp">
+                                <picture>
+                                    <source srcset="img/bg-icons/Gulp.webp" media="(min-width:1024px)">
+                                    <img src="img/bg-icons/Gulp.png" alt="">
+                                </picture>
+                            </div>
+                            <div class="skills__icon skills__icon-wordpress">
+                                <picture>
+                                    <source srcset="img/bg-icons/WordPress.webp" media="(min-width:1024px)">
+                                    <img src="img/bg-icons/WordPress.png" alt="">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section class="main__projects projects">
+                    <div class="projects__container">
+                        <h2 class="projects__title">Мої проєкти</h2>
+                        <div class="projects__items">
+                            <article class="projects__item item-projects">
+                                <button type="button" class="item-projects__button button-item" data-collapse>
+                                    <div class="button-item__info">
+                                        <h3 class="button-item__title">Інформація про сайт</h3>
+                                        <div class="button-item__arrow"></div>
+                                    </div>
+                                </button>
+                                <div class="item-projects__wrapper">
+                                    <div class="collapse">
+                                        <div class="collapse__body">
+                                            <div class="collapse__title">Будівельне бюро</div>
+                                            <button type="button" class="collapse__button">
+                                                <a href="works/Createx/index.html">Відкрити сайт</a>
+                                            </button>
+                                            <div class="collapse__block-text">
+                                                <div class="collapse__text">Адаптивна верстка</div>
+                                                <div class="collapse__text">Використовувались: HTML5, CSS3, JavaScript
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-projects__image">
+                                    <picture>
+                                        <source srcset="img/works/Homepage-createx.webp" media="(min-width:1440px)">
+                                        <source srcset="img/works/Homepage-createx-small.webp"
+                                            media="(max-width:1440px)">
+                                        <img src="img/works/Homepage-createx.png" alt="Картинка сайту">
+                                    </picture>
+                                </div>
+                            </article>
+                            <article class="projects__item item-projects">
+                                <button type="button" class="item-projects__button button-item" data-collapse>
+                                    <div class="button-item__info">
+                                        <h3 class="button-item__title">Інформація про сайт</h3>
+                                        <div class="button-item__arrow"></div>
+                                    </div>
+                                </button>
+                                <div class="item-projects__wrapper">
+                                    <div class="collapse">
+                                        <div class="collapse__body">
+                                            <div class="collapse__title">Творча студія</div>
+                                            <button type="button" class="collapse__button">
+                                                <a href="works/landing/index.html">Відкрити сайт</a>
+                                            </button>
+                                            <div class="collapse__block-text">
+                                                <div class="collapse__text">Адаптивна верстка</div>
+                                                <div class="collapse__text">Використовувались: HTML5, CSS3, JavaScript
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-projects__image">
+                                    <picture>
+                                        <source srcset="img/works/Freebie-Agency.webp" media="(min-width:1440px)">
+                                        <source srcset="img/works/Freebie-Agency-small.webp" media="(max-width:1440px)">
+                                        <img src="img/works/Freebie-Agency.png" alt="Картинка сайту">
+                                    </picture>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <div class="wrapper__hiding-block">
+                <div class="wrapper__hiding-block-body">
+                    <div class="monitor__bottom-block">
+                        <div class="monitor__buttons">
+                            <div class="monitor__scroll-buttons">
+                                <button type="button" class="monitor__button"
+                                    data-goto=".skills__body"><span>Вміння</span></button>
+                                <button type="button" class="monitor__button"
+                                    data-goto=".projects"><span>Проєкти</span></button>
+                            </div>
+                            <div class="monitor__language-box">
+                                <button type="button" class="monitor__button monitor__language-button" data-collapse>
+                                    <span>УКР</span>
+                                </button>
+                                <div class="collapse">
+                                    <div class="collapse__body">
+                                        <a href="en.html" class="collapse__language">EN</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="monitor__footing"></div>
+                    <div class="monitor__plate"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="circle-to-top">
+        <div class="arrow-to-top">
+
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
