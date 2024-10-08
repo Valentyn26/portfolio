@@ -407,7 +407,25 @@ body {
     max-width: 900px;
 }
 
-.projects__item {}
+.projects__item {
+    position: relative;
+}
+
+.item-projects__in_developement {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #aaaaaa;
+    text-shadow: 2px 2px rgb(26, 26, 26);
+}
 
 .item-projects {
     flex: 0 1 48%;
