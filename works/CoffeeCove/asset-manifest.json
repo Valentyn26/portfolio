@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.57df6b06.css",
-    "main.js": "/static/js/main.db4aa958.js",
+    "main.js": "/static/js/main.6f4a514d.js",
     "static/media/puerh.png": "/static/media/puerh.f3b0790d637bb9e2a5f6.png",
     "static/media/chicory.jpg": "/static/media/chicory.d582f6b19703dd9ae178.jpg",
     "static/media/decaf-coffee.jpg": "/static/media/decaf-coffee.ec133bfb37d0d02556f5.jpg",
@@ -25,10 +25,10 @@
     "index.html": "/index.html",
     "static/media/arrow.svg": "/static/media/arrow.a57564a504361437a75a8614a2a36bbe.svg",
     "main.57df6b06.css.map": "/static/css/main.57df6b06.css.map",
-    "main.db4aa958.js.map": "/static/js/main.db4aa958.js.map"
+    "main.6f4a514d.js.map": "/static/js/main.6f4a514d.js.map"
   },
   "entrypoints": [
     "static/css/main.57df6b06.css",
-    "static/js/main.db4aa958.js"
+    "static/js/main.6f4a514d.js"
   ]
 }
