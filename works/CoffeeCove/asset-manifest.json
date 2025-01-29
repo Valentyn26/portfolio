@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.57df6b06.css",
+    "main.js": "/static/js/main.db4aa958.js",
+    "static/media/puerh.png": "/static/media/puerh.f3b0790d637bb9e2a5f6.png",
+    "static/media/chicory.jpg": "/static/media/chicory.d582f6b19703dd9ae178.jpg",
+    "static/media/decaf-coffee.jpg": "/static/media/decaf-coffee.ec133bfb37d0d02556f5.jpg",
+    "static/media/espresso.jpg": "/static/media/espresso.a1c8057e7eb6022b6495.jpg",
+    "static/media/chocolate.jpg": "/static/media/chocolate.9b6bab5d6324a213e3e5.jpg",
+    "static/media/americano.jpg": "/static/media/americano.55b9c00c8fceb66100f7.jpg",
+    "static/media/Banner.jpg": "/static/media/Banner.ddc456c2a33cea0777a5.jpg",
+    "static/media/flatWhite.jpg": "/static/media/flatWhite.c42488f0a390eef22f43.jpg",
+    "static/media/Background.jpg": "/static/media/Background.67f07c70b0a0148e16ed.jpg",
+    "static/media/Beans.svg": "/static/media/Beans.d4178676620beef5450bf4cc5c0f2038.svg",
+    "static/media/matcha.png": "/static/media/matcha.24bd0201615995825658.png",
+    "static/media/fruit-tea.jpg": "/static/media/fruit-tea.a7411ee3fece103620b5.jpg",
+    "static/media/amerikano-milk.jpg": "/static/media/amerikano-milk.179682609e0fe40ee0bc.jpg",
+    "static/media/Delivery.svg": "/static/media/Delivery.70efe07bced1f63516d3ee394dd8cfd8.svg",
+    "static/media/Milk.svg": "/static/media/Milk.91b8f595c09ce2fdc3622ebbf367022c.svg",
+    "static/media/Bag.svg": "/static/media/Bag.87d5d989587a58ec705bada58b85fb3b.svg",
+    "static/media/Filter.svg": "/static/media/Filter.62b45c6e4787b01e100182ca261c4bde.svg",
+    "static/media/Heart.svg": "/static/media/Heart.d0c7e26fd217f53bc3bb9c69c5b4a787.svg",
+    "static/media/Search.svg": "/static/media/Search.88d325fbb75502c5ae9cf33bc234b052.svg",
+    "static/media/User.svg": "/static/media/User.93cd04c86ebfbfe340c5e39fc5b66111.svg",
+    "index.html": "/index.html",
+    "static/media/arrow.svg": "/static/media/arrow.a57564a504361437a75a8614a2a36bbe.svg",
+    "main.57df6b06.css.map": "/static/css/main.57df6b06.css.map",
+    "main.db4aa958.js.map": "/static/js/main.db4aa958.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57df6b06.css",
+    "static/js/main.db4aa958.js"
+  ]
+}
