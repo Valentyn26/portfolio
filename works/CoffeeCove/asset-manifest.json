@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/works/CoffeeCove/static/css/main.bf47a57e.css",
-    "main.js": "/portfolio/works/CoffeeCove/static/js/main.b4cee8ad.js",
+    "main.js": "/portfolio/works/CoffeeCove/static/js/main.849a44fb.js",
     "static/media/puerh.png": "/portfolio/works/CoffeeCove/static/media/puerh.f3b0790d637bb9e2a5f6.png",
     "static/media/chicory.jpg": "/portfolio/works/CoffeeCove/static/media/chicory.d582f6b19703dd9ae178.jpg",
     "static/media/decaf-coffee.jpg": "/portfolio/works/CoffeeCove/static/media/decaf-coffee.ec133bfb37d0d02556f5.jpg",
@@ -25,10 +25,10 @@
     "index.html": "/portfolio/works/CoffeeCove/index.html",
     "static/media/arrow.svg": "/portfolio/works/CoffeeCove/static/media/arrow.a57564a504361437a75a8614a2a36bbe.svg",
     "main.bf47a57e.css.map": "/portfolio/works/CoffeeCove/static/css/main.bf47a57e.css.map",
-    "main.b4cee8ad.js.map": "/portfolio/works/CoffeeCove/static/js/main.b4cee8ad.js.map"
+    "main.849a44fb.js.map": "/portfolio/works/CoffeeCove/static/js/main.849a44fb.js.map"
   },
   "entrypoints": [
     "static/css/main.bf47a57e.css",
-    "static/js/main.b4cee8ad.js"
+    "static/js/main.849a44fb.js"
   ]
 }
