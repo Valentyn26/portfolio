@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.57df6b06.css",
-    "main.js": "/static/js/main.6f4a514d.js",
+    "main.css": "/portfolio/works/CoffeeCove/static/css/main.bf47a57e.css",
+    "main.js": "/portfolio/works/CoffeeCove/static/js/main.b4cee8ad.js",
     "static/media/puerh.png": "/portfolio/works/CoffeeCove/static/media/puerh.f3b0790d637bb9e2a5f6.png",
     "static/media/chicory.jpg": "/portfolio/works/CoffeeCove/static/media/chicory.d582f6b19703dd9ae178.jpg",
     "static/media/decaf-coffee.jpg": "/portfolio/works/CoffeeCove/static/media/decaf-coffee.ec133bfb37d0d02556f5.jpg",
@@ -22,11 +22,13 @@
     "static/media/Heart.svg": "/portfolio/works/CoffeeCove/static/media/Heart.d0c7e26fd217f53bc3bb9c69c5b4a787.svg",
     "static/media/Search.svg": "/portfolio/works/CoffeeCove/static/media/Search.88d325fbb75502c5ae9cf33bc234b052.svg",
     "static/media/User.svg": "/portfolio/works/CoffeeCove/static/media/User.93cd04c86ebfbfe340c5e39fc5b66111.svg",
-    "index.html": "/CoffeeCove/index.html",
-    "static/media/arrow.svg": "/portfolio/works/CoffeeCove/static/media/arrow.a57564a504361437a75a8614a2a36bbe.svg"
+    "index.html": "/portfolio/works/CoffeeCove/index.html",
+    "static/media/arrow.svg": "/portfolio/works/CoffeeCove/static/media/arrow.a57564a504361437a75a8614a2a36bbe.svg",
+    "main.bf47a57e.css.map": "/portfolio/works/CoffeeCove/static/css/main.bf47a57e.css.map",
+    "main.b4cee8ad.js.map": "/portfolio/works/CoffeeCove/static/js/main.b4cee8ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.57df6b06.css",
-    "static/js/main.6f4a514d.js"
+    "static/css/main.bf47a57e.css",
+    "static/js/main.b4cee8ad.js"
   ]
 }
